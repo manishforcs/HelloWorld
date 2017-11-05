@@ -1,0 +1,21 @@
+Create Git Account
+Create Repository
+ls -al  == list all the file 
+
+create file with contain:
+
+echo "manish here" README.md
+
+cat README.md
+
+touch .gitignore
+
+
+Making Your First Git Commit
+
+git add - -all
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/username/reponame  -- It tells the local repository that there is remote repo on this location and I want to link this repo to remote repo
+
+git push -u orgin master 
